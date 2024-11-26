@@ -4,7 +4,6 @@
  */
 package prueba8_restaurante;
 
-import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 

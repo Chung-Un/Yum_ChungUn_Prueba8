@@ -11,7 +11,23 @@ package prueba8_restaurante;
 public class cliente {
  String nombre,direccion;
  int numeroTelefono;
+ boolean frecuente, mayorEdad;
 
+    public boolean isFrecuente() {
+        return frecuente;
+    }
+
+    public void setFrecuente(boolean frecuente) {
+        this.frecuente = frecuente;
+    }
+
+    public boolean isMayorEdad() {
+        return mayorEdad;
+    }
+
+    public void setMayorEdad(boolean mayorEdad) {
+        this.mayorEdad = mayorEdad;
+    }
     public String getNombre() {
         return nombre;
     }
